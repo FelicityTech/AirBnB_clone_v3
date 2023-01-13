@@ -159,4 +159,61 @@ Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://tw
 
 Second part of Airbnb: Joann Vuong
 ## License
-Public Domain. No copy write protection. 
+Public Domain. No copy write protection.
+
+# Resources
+[How to use Fabric](https://www.digitalocean.com/community/tutorials/how-to-use-fabric-to-automate-administration-tasks-and-deployments)
+[How to use Fabric in Python](https://www.pythonforbeginners.com/systems-programming/how-to-use-fabric-in-python)
+[Fabric and command line options](https://docs.fabfile.org/en/1.13/usage/fab.html) 
+## CI/CD concept page
+'''
+The lean/agile methodology (See: [Twelve Principles of Agile Software](http://agilemanifesto.org/principles.html)) is now widely used by the industry and one of its key principles is to iterate as fast as possible. If you apply this to software engineering, it means that you should:
+
+code
+ship your code
+measure the impact
+learn from it
+fix or improve it
+start over
+As fast as possible and with small iterations in days or even hours (whereas it used to be weeks or even months). One big advantage is that if product development is going the wrong direction, fast iteration will allow to quickly detect this, and avoid wasting time.
+
+From a technical point of view, quicker iterations mean fewer lines of code being pushed at every deploy, which allows easy performance impact measurement and easy troubleshooting if something goes wrong (better to debug a small code change than weeks of new code).
+
+
+
+Applied to software engineering, [CI/CD](https://digital.ai/catalyst-blog/walk-before-you-run-understanding-ci-in-cd/) (Continuous Integration/Continuous Deployment) is a principle that allows individuals or teams to have a lean/agile way of working.
+
+This translates to a “shipping pipeline” which is often built with multiple tools such as:
+
+Shipping the code:
+Capistrano, Fabric
+Encapsulating the code
+Docker, Packer
+Testing the code
+Jenkins, CircleCi, Travis
+Measuring the code
+Datadog, Newrelic, Wavefront
+
+'''
+[Nginx configuration for beginners](http://nginx.org/en/docs/beginners_guide.html)
+[Difference between root and alias on NGINX](https://blog.heitorsilva.com/en/nginx/diferenca-entre-root-e-alias-do-nginx/)
+[Fabric for Python 3](https://github.com/mathiasertl/fabric)
+[Fabric Documentation](https://www.fabfile.org/)
+
+### More Info
+## Install Fabric for Python 3 - version 1.14.post1
+'''
+$ pip3 uninstall Fabric
+$ sudo apt-get install libffi-dev
+$ sudo apt-get install libssl-dev
+$ sudo apt-get install build-essential
+$ sudo apt-get install python3.4-dev
+$ sudo apt-get install libpython3-dev
+$ pip3 install pyparsing
+$ pip3 install appdirs
+$ pip3 install setuptools==40.1.0
+$ pip3 install cryptography==2.8
+$ pip3 install bcrypt==3.1.7
+$ pip3 install PyNaCl==1.3.0
+$ pip3 install Fabric3==1.14.post1
+'''
